@@ -29,7 +29,7 @@ Please type in the math operation you would like to complete:
 
     elif operation == '**':
         print('{} ** {} = '.format(number_1, number_2))
-        print(number_1 / number_2)
+        print(number_1 ** number_2)
         
     else:
         print('You have not typed a valid operator, please run the program again.')
